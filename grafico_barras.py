@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dados_excel = pd.read_excel('C:\planilha1.xlsx') // Caminho para o arquivo
+dados_excel = pd.read_excel('C:\planilha1.xlsx') //Caminho para o arquivo
 
 x = dados_excel['X']
 y = dados_excel['Y']
